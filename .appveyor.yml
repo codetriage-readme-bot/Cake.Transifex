@@ -11,7 +11,7 @@ skip_commits:
     - LICENSE
     - .travis.yml
 image: Visual Studio 2017
-cache: tools -> setup.cake,tools/packages.config
+cache: tools -> setup.cake,tools/packages.config,.appveyor.yml
 install:
 - cinst transifex-client --version 0.12.4
 build_script:
