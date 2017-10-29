@@ -12,6 +12,8 @@ skip_commits:
     - .travis.yml
 image: Visual Studio 2017
 cache: tools -> setup.cake,tools/packages.config
+install:
+- cinst transifex-client --version 0.12.4
 build_script:
 - ps: .\build.ps1 -Configuration Release -Target AppVeyor
 test: off
