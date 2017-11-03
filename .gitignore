@@ -291,3 +291,6 @@ tools/**
 # Custom
 BuildArtifacts/
 *.*.resx
+*.dll
+*.hash
+docs/input/tasks/
